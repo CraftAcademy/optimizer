@@ -65,42 +65,58 @@ class Api::OptimizersController < ApplicationController
       ],
       "assignments": [
         {
-          "id": 9,
-          "staff_id": 6,
-          "shift": "OFF",
-          "created_at": "2018-11-14T15:01:39.734Z",
-          "updated_at": "2018-11-14T15:01:39.734Z",
+          "id": nil,
+          "staff_id": 4,
+          "shift": "06:00-14:00 Receptionist",
+          "date": "2018-11-01"
+        },
+        {
+          "id": nil,
+          "staff_id": 3,
+          "shift": "06:00-14:00 Receptionist",
+          "date": "2018-11-01"
+        },
+        {
+          "id": nil,
+          "staff_id": 1,
+          "shift": "14:00-20:00 Manager",
+          "date": "2018-11-01"
+        },
+        {
+          "id": nil,
+          "staff_id": 2,
+          "shift": "06:00-14:00 Receptionist",
           "date": "2018-11-02"
         },
         {
-          "id": 8,
-          "staff_id": 7,
-          "shift": "OFF",
-          "created_at": "2018-11-14T15:01:24.176Z",
-          "updated_at": "2018-11-14T15:01:24.176Z",
-          "date": "2018-11-01"
-        }
-      ],
-      "patterns": [
-        {
-          "id": 21,
-          "shift_start": "2000-01-01T00:00:00.000Z",
-          "created_at": "2018-11-14T15:00:02.037Z",
-          "updated_at": "2018-11-14T15:00:02.037Z",
-          "user_id": 1,
-          "break_length": "2000-01-01T00:00:00.000Z",
-          "shift_end": "2000-01-01T20:00:00.000Z",
-          "primary_role": "Teaching"
+          "id": nil,
+          "staff_id": 4,
+          "shift": "06:00-14:00 Receptionist",
+          "date": "2018-11-02"
         },
         {
-          "id": 22,
-          "shift_start": "2000-01-01T20:00:00.000Z",
-          "created_at": "2018-11-14T15:00:44.390Z",
-          "updated_at": "2018-11-14T15:00:44.390Z",
-          "user_id": 1,
-          "break_length": "2000-01-01T01:00:00.000Z",
-          "shift_end": "2000-01-01T23:00:00.000Z",
-          "primary_role": "Selling"
+          "id": nil,
+          "staff_id": 1,
+          "shift": "14:00-20:00 Manager",
+          "date": "2018-11-02"
+        },
+        {
+          "id": nil,
+          "staff_id": 2,
+          "shift": "06:00-14:00 Receptionist",
+          "date": "2018-11-03"
+        },
+        {
+          "id": nil,
+          "staff_id": 4,
+          "shift": "06:00-14:00 Receptionist",
+          "date": "2018-11-03"
+        },
+        {
+          "id": nil,
+          "staff_id": 1,
+          "shift": "14:00-20:00 Manager",
+          "date": "2018-11-03"
         }
       ],
       "staffs": [
